@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+   
+        <TextView 
+        android:id="@+id/first_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="快易付"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:background="#FF0000"
+        />
+        
+       <FrameLayout 
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_below="@id/first_layout"
+        android:background="#ffff00">
+        
+    </FrameLayout>
+    
+    <include layout="@layout/top1"/>
+
+</LinearLayout>
