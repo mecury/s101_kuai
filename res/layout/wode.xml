@@ -33,6 +33,7 @@
                        android:layout_height="match_parent"
                        android:background="@drawable/android_personel_quickly_order"/>
 	               <Button 
+	                   android:id="@+id/wodeSelect"
 	                   android:layout_width="match_parent"
 	                   android:layout_height="wrap_content"
 	                   android:background="@drawable/buttoncorners"
@@ -49,6 +50,7 @@
                        android:layout_height="match_parent"
                        android:background="@drawable/android_personel_waitpay_order"/>
 	               <Button 
+	                   android:id="@+id/wodepayfor"
 	                   android:layout_width="match_parent"
 	                   android:layout_height="wrap_content"
 	                   android:background="@drawable/buttoncorners"
@@ -64,6 +66,7 @@
                        android:layout_height="match_parent"
                        android:background="@drawable/android_personel_all_order"/>
 	               <Button 
+	                   android:id="@+id/wodeallgoods"
 	                   android:layout_width="match_parent"
 	                   android:layout_height="wrap_content"
 	                   android:background="@drawable/buttoncorners"
@@ -90,6 +93,7 @@
                        android:layout_height="match_parent"
                        android:background="@drawable/android_my_jd_discuss"/>
 	               <Button 
+	                   android:id="@+id/wodegoods"
 	                   android:layout_width="match_parent"
 	                   android:layout_height="wrap_content"
 	                   android:background="@drawable/buttoncorners"
@@ -105,6 +109,7 @@
                        android:layout_height="match_parent"
                        android:background="@drawable/android_my_jd_messages"/>
 	               <Button 
+	                   android:id="@+id/wodemessage"
 	                   android:layout_width="match_parent"
 	                   android:layout_height="wrap_content"
 	                   android:background="@drawable/buttoncorners"
@@ -120,6 +125,7 @@
                        android:layout_height="match_parent"
                        android:background="@drawable/android_my_jd_collects"/>
 	               <Button 
+	                   android:id="@+id/wodeattention"
 	                   android:layout_width="match_parent"
 	                   android:layout_height="wrap_content"
 	                   android:background="@drawable/buttoncorners"
@@ -128,7 +134,7 @@
           	</LinearLayout>
           	
           	<LinearLayout 
-          	   android:layout_marginTop="5dp"
+          	   android:layout_marginTop="25dp"
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
                android:background="#50ffff00"
@@ -136,9 +142,9 @@
           	    <LinearLayout 
           	        android:layout_width="match_parent"
           	        android:layout_height="wrap_content"
-          	        android:layout_marginTop="20dp"
           	        android:orientation="horizontal">
           	        <Button 
+          	            android:id="@+id/wodeabout"
           	            android:layout_width="0dp"
           	            android:layout_weight="15"
           	            android:layout_height="wrap_content"
@@ -177,6 +183,7 @@
           	        android:layout_marginTop="2dp"
           	        android:orientation="horizontal">
           	        <Button 
+          	            android:id="@+id/wodeadvice"
           	            android:layout_width="0dp"
           	            android:layout_weight="15"
           	            android:layout_height="wrap_content"
@@ -191,6 +198,15 @@
           	            android:background="@drawable/android_list_idex"/> -->
           	    </LinearLayout>
           	</LinearLayout>
+          	
+          	<Button 
+          	    android:id="@+id/wodequit"
+          	    android:layout_width="match_parent"
+          	    android:layout_height="wrap_content"
+          	    android:layout_margin="20dp"
+          	    android:background="@drawable/buttoncorners"
+          	    
+          	    android:text="退出登录"/>
        </LinearLayout>
    </ScrollView>
 </LinearLayout>
